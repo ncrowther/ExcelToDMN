@@ -41,6 +41,14 @@ mvn clean compile quarkus:dev
 ## API
 
 ```sh
-http://localhost:8080/q/swagger-ui
+http://localhost:8080/q/swagger-ui/#/Hierarchical%20Rules%20Resource/post_HierarchicalRules
+
+Test with payload:
+
+{
+  "A": "47752128",
+  "B": "Green",
+  "C": "Green"
+}
 ```
 
