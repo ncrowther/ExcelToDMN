@@ -1,4 +1,0 @@
-﻿rainForecast:Number,temperature:String,advice:String
-[0..20],cold,Cold day. Take a coat.
-[20..80],,Risk of rain. Might need an umbrella
-[80..100],,Rainy day. Take an umbrella

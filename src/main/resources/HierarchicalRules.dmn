@@ -1,0 +1,3529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://www.drools.org/kie-dmn/HierarchicalRules" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_D22C5EC8-4E20-46AD-A8F0-5909A7F4A319" name="HierarchicalRules" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://www.drools.org/kie-dmn/HierarchicalRules">
+  <dmn:extensionElements/>
+  <dmn:decision id="_BBA8FB3E-8E56-41E2-A9D5-80FECE01097C" name="Color">
+    <dmn:extensionElements/>
+    <dmn:variable id="_3db702c9-59fe-47e6-9761-520dcb13a7ad" name="Color" typeRef="string"/>
+    <dmn:informationRequirement id="_3E707067-4E25-4F98-BE65-E73FFA109C58">
+      <dmn:requiredInput href="#_C40BEEF5-7F90-43BA-9088-B570864B07E6"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_F3277F97-8EBF-4B81-891B-60386A989306">
+      <dmn:requiredInput href="#_48C181B8-814E-48E5-A95C-AC200E0EB29B"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_929C5481-4582-42B5-9877-70F2B4C10BB0">
+      <dmn:requiredInput href="#_ED3D54E7-62B5-48A3-99C2-5889D8B64125"/>
+    </dmn:informationRequirement>
+    <dmn:decisionTable id="_7CCC4E09-15AD-4108-A087-287BAACE06B3" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_4c45a5d4-1d98-40f9-86f3-129dff53290e">
+        <dmn:inputExpression id="_e79eceff-9b5b-47fd-a717-e15a502e635f" typeRef="string">
+          <dmn:text>A</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_e34218f4-69e1-471f-b0c1-dfe278663502">
+        <dmn:inputExpression id="_8fff0680-118d-4502-858d-d9fda330cc9d" typeRef="string">
+          <dmn:text>B</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_b5d474d7-829a-47ce-ae72-ff10b5ac9860">
+        <dmn:inputExpression id="_97f26730-694f-4fb4-aea9-050779a7a85a" typeRef="string">
+          <dmn:text>C</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_e7f1c069-23bc-40d3-a2bc-ae4431c3a9e4"/>
+      <dmn:annotation name="annotation-1"/>
+      <dmn:rule id="_9441ec86-2364-4f63-bfba-b1cb77ac3f71">
+        <dmn:inputEntry id="_d614405a-ea9f-4550-a4f2-9c25453f71cc">
+          <dmn:text>"6926576"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_592c598f-d76c-452a-93d8-761c1ef687f3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fd1967bb-d8e3-49b6-b471-b4ee14b605b9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_50fd0cdf-3159-4940-8c7b-7481e9b23370">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0017b385-4d5d-443f-ab02-1454c76075dd">
+        <dmn:inputEntry id="_1f3d5d15-c3ab-4586-b792-c5948a8a9a53">
+          <dmn:text>"21479511"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ebfdf909-7c43-40b5-9ed3-c411f8c22166">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8b71b5ec-8c4d-4ed8-b334-4f7d715d4f1a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_87f014d9-a945-4ca5-9449-6acdd0a54b40">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8fbfc102-48a1-4125-8128-7d67a6e4af0a">
+        <dmn:inputEntry id="_89b862a7-2f53-4eba-ab5c-8e1b58e5770e">
+          <dmn:text>"81350994"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8de4c715-a3d4-44aa-8475-b92d617f18ca">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_25df9256-ed51-4926-910f-c87c7f1e1a7c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_79ce5ab1-0b1b-4bf7-8e56-f8b0b200021f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d1b184dc-a7bd-4dea-8fa4-4c039d6bc17e">
+        <dmn:inputEntry id="_7e86fe9f-274c-4468-a500-18b41230f3a0">
+          <dmn:text>"46179726"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7233f514-c694-4e85-8059-8a7527243078">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ad3fb750-e8e3-4203-8bae-dd6677a3023c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c8b60317-3d85-4154-84d9-ab552df0bc2a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a00a81f7-d33e-4fee-a1c2-ee7ef251908e">
+        <dmn:inputEntry id="_59a7e84e-c941-4c51-a579-5e4aae7b3445">
+          <dmn:text>"9329566"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6664f4eb-031e-4c76-afd5-ef74873f5250">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fb13d9d6-2043-499b-9801-028f89031d46">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d6e86c14-f3bd-4e4c-bee3-dfce0e2bc28b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_051d512b-3575-4004-9564-6970ea18e636">
+        <dmn:inputEntry id="_b32937b3-15ee-43ce-b8d8-f5b197c0882a">
+          <dmn:text>"96640775"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_765f8cf0-c404-4cc6-a478-2d4b661c4593">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d9d6a04d-aa77-477f-ba25-b41474aec990">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_014490f2-4e61-4f83-ab14-8a01ca66e273">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_bc6d76e9-4826-4254-a8a6-ffcb4663de89">
+        <dmn:inputEntry id="_0c11d7c2-887f-4b32-80a8-8a98d11a063f">
+          <dmn:text>"96077972"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bfa77aef-17cf-43ff-9976-4da5ba38eb67">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1cbc5469-858c-4f35-829e-93838164ba4d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_691571f0-a16c-4809-a9a9-1796bae60365">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_515152d5-4264-44ab-baab-a19871f9a763">
+        <dmn:inputEntry id="_9ef84f23-34c7-40d6-ad4d-21ab36406e85">
+          <dmn:text>"71747092"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4979e5e8-20da-4d0d-857b-11d0f4987f70">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4955e6e5-7386-40a5-95f8-a0fb56a033ed">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2219cca2-ad75-4ab0-a249-d212a270cf27">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_59557114-cf5b-410b-9263-d0c895496fd3">
+        <dmn:inputEntry id="_05e73668-72c3-4c9e-a29c-7bc0699d508e">
+          <dmn:text>"35418205"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_287775a5-0c52-4c5e-9eec-36d8152a4642">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_682f2a37-d608-4afb-b9bf-ba37db35a95b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_08bc3767-1033-49e5-ad1a-8ba04f516e63">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_14c1d4e8-75a9-48dd-8763-5f9ea9fdb087">
+        <dmn:inputEntry id="_86cf5013-aa21-431f-90d6-8e6761ab6a92">
+          <dmn:text>"45063714"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ba58e4a1-75d3-4b29-b22d-ea8d5c8b9f1c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4da0e8cd-aa44-4421-b93a-930df32f880f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_60e2a481-ac47-45f2-a9d2-a1fc3bfc884b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4e6fe41c-0155-4da9-98bd-c512cf8a6748">
+        <dmn:inputEntry id="_b875d61a-4938-4f3d-bafa-6b6a2cc61a03">
+          <dmn:text>"91030164"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_02e95575-4c1e-477d-9f1c-664ea304d65a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_95bf92f8-a97c-4856-9b63-328b4161d0f2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d9ccf912-678a-466a-8ae5-0f5807a4a989">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2142ea2c-7bdb-4cf9-ba75-9cd9c6c8887f">
+        <dmn:inputEntry id="_d38460b8-6889-4182-8d73-b9e0a13b0bab">
+          <dmn:text>"72750786"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_250d3f1e-8aec-4743-b6ee-6453280a7921">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c90b1efc-a512-4c1f-8523-74a8649bc6ae">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1d9b6167-f9c4-4b9b-870c-02c9db34b25e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c2c052fc-149e-4f7c-ba86-394a0dee4c7f">
+        <dmn:inputEntry id="_767f0838-e78b-431a-abc3-ff6e8478b8fc">
+          <dmn:text>"31367779"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_88939d83-765f-4da0-82b6-c9df7cfcda7f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9e9f8d00-f43e-4f9d-b207-960a6c1e54ea">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_460ecd8e-44f5-4f52-8282-f3de4ab871b7">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_611104b9-b370-478d-be23-dc0ecdd2c5eb">
+        <dmn:inputEntry id="_4a9bf387-b83f-41e4-8c19-628c3d49ea6d">
+          <dmn:text>"94918342"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6b9e181f-d4af-4739-baae-ef279b2c66ce">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_79a5a11e-983a-410e-ba19-938ccb799e23">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a4c9d9db-e822-4e5a-b0d9-90f8a55b8dad">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9c2530f6-809b-4a19-abca-9f5ddad81d25">
+        <dmn:inputEntry id="_d369b0bb-6c19-4e44-8c48-150569fc4eb8">
+          <dmn:text>"23748075"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_95f15421-c58b-4b38-97b2-8ce39c6d6b9c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_906cc3a0-5765-4221-a93a-9b80dfa5bc08">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0c429c5d-5538-485e-a6e8-5c108818d273">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2cc58d7e-3068-4875-8b02-09eb0c21fd12">
+        <dmn:inputEntry id="_b036755f-d225-409d-81ac-0cf75048838f">
+          <dmn:text>"97746014"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c050f16c-39e6-429f-a378-11c9fcd3e21a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6a30f262-a933-449b-aa06-ca37411b07ec">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_ebc4fa75-2735-4a92-bb0c-28e447bb3adb">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5177a73a-84e7-471b-9b45-435d9a65c04b">
+        <dmn:inputEntry id="_d8487c3d-4f8c-4a8c-a7dd-68add81d27a6">
+          <dmn:text>"84596205"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_74208b2d-e89f-4262-b155-89b4ff0a4d50">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_57d9f64c-9a2f-491c-ae57-ddbfee6273a6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c1948f8c-001c-474e-a39a-2dfd63c881d6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_21ce28ff-10f0-4b11-9303-ec2e0e5a252e">
+        <dmn:inputEntry id="_be7310cb-bc9d-4e28-901d-500206c9b166">
+          <dmn:text>"8213847"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_66f73127-a51a-4175-98bd-5632e737853e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_64b59810-cd88-488c-ac88-9913cbf701e1">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1b859260-2078-40c9-b001-aa5d0a0344b2">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_e7378cd9-48a9-4ce6-812f-2ecc3b5f2ade">
+        <dmn:inputEntry id="_8ed687fb-545a-417b-b34c-1cf61c04c9ea">
+          <dmn:text>"67495568"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5596aeff-8309-4bf7-8e51-df3ba11632fa">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7e9137fc-4baa-4c18-ab0e-7caf9956fdeb">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0beb56e9-198e-4225-b34a-0dfed799ad62">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ec14d3f6-05a3-4d94-a83a-c73985720ecd">
+        <dmn:inputEntry id="_9f4369b4-1ec8-4a89-bae6-40ea13638ae8">
+          <dmn:text>"19220004"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bf4e478e-30a3-4d87-91fc-a0121177a416">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_293a0d68-4ee6-4ada-b42a-6c14d7e1bc53">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_081198f9-31c6-4e28-aa38-c1430b2bb154">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c6b9e46d-ed9a-4ff7-b4fb-351705779474">
+        <dmn:inputEntry id="_4594e273-eac3-4eaf-b2ac-863b6c7329ff">
+          <dmn:text>"77469816"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_32c200fe-a7f2-4b75-973a-0333d4d8c5be">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c4327769-55f3-4e30-b169-b462f4944f5c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a36b0acf-3e44-4fb4-8294-cd9b4c9620f8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_95cb9db0-4d3d-4a89-b900-efbe0542147b">
+        <dmn:inputEntry id="_76d7925f-5da1-493d-8eb3-d9fdc21b3b21">
+          <dmn:text>"25424570"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0c792a5d-58f3-4f96-bf8e-f623a866fa8f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f847bde2-e711-491c-a704-0387eb7613d1">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c67a54b0-79e6-49e1-879d-b852e75e66be">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_998b26ea-c499-4b5f-a6c9-66812f11fc63">
+        <dmn:inputEntry id="_e0a36c94-0cbb-4bfa-bae3-85e2f669e103">
+          <dmn:text>"43819587"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a2c34175-6d1a-432f-88bf-646053687432">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ea72ea4d-36ca-41ff-ab80-0932af457f35">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_053334f9-966d-4175-905a-8b905734652c">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_dac25a7c-d9e7-4ed6-8c59-203adae83b8c">
+        <dmn:inputEntry id="_76fe5c2d-136f-47b6-9dc2-dc723366e2fa">
+          <dmn:text>"451026"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2b3fcdca-4706-4cab-adce-dccaf3672a96">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6a068103-035c-44bf-825e-466344a8d4f8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_61f1d321-7f8a-45e8-8e4a-5ffb9628c1c2">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_feac9671-6737-4d9f-93ec-285c721a533e">
+        <dmn:inputEntry id="_8663d57d-8b26-446e-afeb-2eb9f8770337">
+          <dmn:text>"38955272"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0b24af62-f3a6-4a06-83e9-27cf4bb38558">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e215c74a-31ab-447f-a172-149f0e56e19b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0de86405-8f49-4f8f-b939-59f6284d1b65">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_fed3896b-033c-4965-8646-6e0eb2086d0f">
+        <dmn:inputEntry id="_e0db1724-45bc-4c8c-9801-3dd111810953">
+          <dmn:text>"69759906"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_07125497-604e-4561-91c7-8b45892a2fc3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4956fd5b-3a66-4cfd-b5d1-f1bfc2c5ba87">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_aba4024c-0dd4-423e-afff-223200418fe8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0b49a129-95aa-4d81-a0f0-3c95518b246f">
+        <dmn:inputEntry id="_763db3c4-c723-412e-8579-9a81d14d9b23">
+          <dmn:text>"75530135"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9af9d8ac-ef26-4e6a-aeea-89b6e481b844">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8c866f53-e469-464e-add7-a4b570603a66">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_790d1f4a-7321-45de-9e08-a73159f011b3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_e94c6073-5470-425b-bf75-462c5a9b5562">
+        <dmn:inputEntry id="_d359a111-f5c3-4055-b8f7-bbaed467d021">
+          <dmn:text>"86111957"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0ff69783-d74d-4df9-a745-4c2a07b47561">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_97ff857f-0e22-4b1b-9973-f67dc3822e84">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d2697d84-edbd-4385-8a68-a7d0f6027cfb">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8cbb6837-3ef5-4826-acbc-944ae1432470">
+        <dmn:inputEntry id="_2090b11c-a3a5-47f1-9fdb-55912774fa11">
+          <dmn:text>"55078262"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c9261203-79d1-4f29-8a4c-4771d0222569">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8e8517d5-d0b1-4ec2-bd64-8d1cb2573b76">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c21613b5-de03-4373-ab8f-00a162bc95ea">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7df5af86-cff6-4c31-87c9-b09e79da3463">
+        <dmn:inputEntry id="_a68df72f-396f-42f1-a440-3a40b87ebed6">
+          <dmn:text>"41260598"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2265536c-d697-4ed7-b0a6-96e16b4ae6f0">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e66e443b-7ef5-418c-9fea-e8aaeee09d46">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4a93101d-ce95-4f72-b006-d3a9c6c6d830">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b413db5e-7797-4a55-88e5-ceade91f35da">
+        <dmn:inputEntry id="_e69ea350-1159-46bb-979f-4d439d21ce9c">
+          <dmn:text>"70749295"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c229207a-4d4a-470c-aab7-12224b20c625">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fd4e43cc-8ef3-4b75-b814-e61fe3022428">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c212ddb9-9e93-402b-b106-f37dfb5dc14e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ee4fa1e1-392c-4745-9f52-649e0c810ec7">
+        <dmn:inputEntry id="_6b24e576-0760-4687-8c20-7fe004f8d07b">
+          <dmn:text>"39321104"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e58af744-c5bd-4ea9-a2c7-ba236bee2894">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_997f3065-3abd-4bb6-a062-39a5d681c541">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_e1071fa7-33f9-46f2-8bfe-9d9534ee9163">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_75a84197-3856-4c17-ba5a-598243bfc57c">
+        <dmn:inputEntry id="_e888dbdc-8874-4c52-9aeb-6523bbc170f4">
+          <dmn:text>"76250773"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a17a7858-de65-4a28-9b4e-db40ff37d0df">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e45044b1-50d3-401e-b5c6-af6c8fd947fd">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5a0add46-cba1-4aac-903b-cada18c7ef15">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_cd222b0c-69f0-4f5d-848f-418251a97c86">
+        <dmn:inputEntry id="_a89449be-9616-44e4-b81c-3dbf2fd5ce59">
+          <dmn:text>"16957790"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_226554c1-1011-4ef4-bc29-3c9418c6a796">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6bdf2100-5957-4252-b698-93a9d0ce1067">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b320ccfd-062c-4306-820c-8745b4b6b279">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7f66419a-dcba-40c1-a090-9a8271c97e9f">
+        <dmn:inputEntry id="_d1858950-03e5-4550-8fa9-7249addb2262">
+          <dmn:text>"10591227"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7061ef53-d5ee-4483-af44-014b5d8b0716">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8eb8b2a9-fbe3-4c71-8e43-e1867d91e0cc">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_821c2822-3109-450b-9f72-8e1d03a8b312">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_baaf29db-f9b1-4387-a075-b95e8c070942">
+        <dmn:inputEntry id="_d90e9f6a-6fd3-4d45-ac34-826fc38c493e">
+          <dmn:text>"15900966"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_58cc8cab-0fa1-4901-91ce-2efd21d081e8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_51170b4f-1ee6-4823-ad26-30a5021e4c11">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_e63ed13d-2dfb-4bee-adac-1844385de451">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1ddccb50-74b3-4a81-8d2d-1a2968e98b23">
+        <dmn:inputEntry id="_019aafcd-7eed-49d0-b090-b82dd2cd2e9f">
+          <dmn:text>"21133047"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7fd3ff1a-8dd7-42c7-9244-d27fd53d676c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4c50c25e-f1b1-4bfb-a74b-f9aafa775b82">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_750d4562-911b-42cd-b0c0-aa23405c2529">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5cc0a39d-c42c-4ef7-aabe-9843ff95e6ec">
+        <dmn:inputEntry id="_9489ec09-4d1b-40fe-af2d-b43cc5efc5b7">
+          <dmn:text>"59555366"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7ef5a656-2efa-4434-bd95-ae578c432216">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5cd09f33-923e-4a7c-aa30-4e7d9699271b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_81df2dfd-869c-423a-8801-62443c18456c">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b433133c-c08f-49b1-9c5f-2ebe011ad9a4">
+        <dmn:inputEntry id="_3f506e62-9167-4aef-9bb5-ecea7fc4ccfc">
+          <dmn:text>"22110454"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_85a308d6-7800-4e33-b865-e150597ef097">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_483e6a45-946f-4060-b559-6e60168cff32">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7c7d8c3d-a393-4909-b282-feaf4d304ed5">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8f69a3a1-d587-4827-a76d-60c4161e1d07">
+        <dmn:inputEntry id="_f2cb9031-4bfe-4337-9d08-662031500af3">
+          <dmn:text>"73977810"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e899a4ea-8ca2-492a-8cc2-c5683d84ac65">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d442e15b-a15f-4cb0-8342-b68a17760d78">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3a0689e1-ceb2-43a5-9033-8d2b4fde1093">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_95abb165-a89f-4527-bc8f-4c1bb09cab26">
+        <dmn:inputEntry id="_557f5567-2146-4eb9-aa26-f3478c2b66ab">
+          <dmn:text>"19996442"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b60563df-9dfa-485d-9f52-c2723627b959">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_572cc40b-1785-4ae8-8d21-670a9b125cc0">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_dfcf06ef-f369-466c-b5ba-e67e1af9746a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_e1bac837-bfe6-437e-bb41-085ae7bca557">
+        <dmn:inputEntry id="_3771364e-cd99-4246-9eaa-904de317ce1f">
+          <dmn:text>"38126102"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a19a48b7-4f47-4818-9d9a-f50e4f113572">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4a090e2e-2322-43b0-b909-174fb9eb863b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4bb9a2c5-31a2-4011-868d-f1d56a6cdff6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_23af8390-b5cf-4dca-b60d-57d1ffbdd87b">
+        <dmn:inputEntry id="_ed4028ad-7b8a-4bd0-b73b-40ac44a86af4">
+          <dmn:text>"69651894"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b05b6923-110c-4c03-9353-063a317f1d1b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_84994a52-fc34-4923-a0e4-fe3711314475">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_aceed7a6-54ac-4480-8944-284365cfd44e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8cb06fde-0f1b-4df2-8b50-adfd723e7c62">
+        <dmn:inputEntry id="_4c5f4ea2-9653-4959-bc98-ebaf8bd3201e">
+          <dmn:text>"78302728"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6e85b59c-b8ac-4727-9e6c-8428dec426c5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_84c2e128-b77a-400c-ade9-54fda33c8e97">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b7091aca-c224-414e-b92b-837e508d74c5">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_14abe656-dcf2-4ba8-9c95-f335da84eaab">
+        <dmn:inputEntry id="_c4d5c0ec-29d4-4922-b3ad-46eb71543edf">
+          <dmn:text>"52661249"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b934b92a-9546-41ce-a4b6-d03b3f90b8ce">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7a9408dc-62c9-47b7-be6a-9330ac7c524c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_97df52bb-9204-4fb5-8529-9b43ea7f7034">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9eea8972-e02a-4674-be65-aeeaa68b3c84">
+        <dmn:inputEntry id="_06dfe129-bfe4-4c54-a483-6f484c3d0845">
+          <dmn:text>"52751142"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_af9c9195-d9a4-4e5d-a1c6-59f7adec5503">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d2af248c-43c6-4d9c-92ba-2df2f9ea355d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_007fa62c-c1bb-4601-853a-9a163d89d909">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a9db043f-7196-4ece-b372-7ec32f647eb5">
+        <dmn:inputEntry id="_1fe4cfff-a946-4e6e-842e-b051c12b7a73">
+          <dmn:text>"18224699"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_baaefe68-6aee-47f9-a39b-e1d6b923e50d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f78ea99e-cb2c-4710-bbde-6d4e788acf7a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6d8cfba4-0533-4d40-85cc-e36ea6840ae1">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8d098ac3-8605-40b6-ae2a-e2981d43af46">
+        <dmn:inputEntry id="_67b6a44c-19ef-4fbb-9d78-94f655c122ed">
+          <dmn:text>"8263449"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_47a01464-4c67-45a7-8b53-06ead7a76a28">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d8a20ace-4d94-4ef9-bf6f-83244dc0cc9e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2c45a891-bea5-4157-8e8b-7a7f43fa06c2">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a664d5b7-98d6-43eb-a65a-fc6974c2622a">
+        <dmn:inputEntry id="_31548100-c55e-49f0-baeb-9c9a241f11b1">
+          <dmn:text>"46799261"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3595b4cb-8bbb-40c0-9d2c-609a38be1090">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0a142b75-4cd8-46d6-a57c-b69a68972095">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b83db570-5677-4b3d-a1c9-7c63aae14fb8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7c298b22-dfbf-4f48-bd23-bac20f010adf">
+        <dmn:inputEntry id="_52c903ac-a9ea-489e-a751-12eba37b4927">
+          <dmn:text>"64852860"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_26454b79-0537-4df1-8ed3-419f2b945da5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2aa4788f-95a7-4107-9f9a-9b1bf690c0f9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9d60426d-6dce-4778-a9af-220b054632b3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5dd30121-358b-4eb1-bd3d-116bf473e8bf">
+        <dmn:inputEntry id="_3f5d24cc-448d-4ac0-93ea-317cddaaf41c">
+          <dmn:text>"72711962"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d8dc7278-e1b4-4487-9648-717784834479">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_310767b6-1962-40e2-81a8-17bfc49bfa4a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_eab0af8d-2056-4d9e-8b04-dba7d0860656">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4974f793-8292-4399-99dd-1122dd355cd3">
+        <dmn:inputEntry id="_5ebdac16-0607-4868-aa31-6ac0ff4ad571">
+          <dmn:text>"29542283"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_db98a2a4-55f3-4f21-8825-ae5134cd280f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0ede5820-44aa-4e57-9241-ca37647bf53e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c54eb977-bbed-43b7-a62c-0117efcec50b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7764a137-2801-49ec-a377-e818ff548183">
+        <dmn:inputEntry id="_5f70e601-9133-478e-b2ca-e48bfb609dad">
+          <dmn:text>"80367188"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e91ac9ee-6358-4875-a6ad-fb4cc6e1b138">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_06e76b5b-8193-4b13-bce7-8ab42de2060b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f93cde81-8e94-493a-9d35-619ec6bc2e95">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_dc8b7496-39a3-432b-aea9-8d53944c5e4b">
+        <dmn:inputEntry id="_151a8521-fc8f-4c4c-b79f-a11a62d02685">
+          <dmn:text>"3454704"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_50a7a670-3cb5-41d6-bc55-7e66911343f7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d2f2b36e-a881-432f-9baf-d6142f32fc82">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_54217f14-6af1-4dd6-b71b-e6820b0a6d78">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1ffde983-c61b-419c-beb0-d71b1e351966">
+        <dmn:inputEntry id="_f687bfec-4d77-4d36-9c01-a5048fbeb7d9">
+          <dmn:text>"34980155"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f7e06cd9-8fbc-4f14-8ff4-59ba191c57ca">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8f88cdcd-d918-4460-9c1d-04aa746423ee">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b00a8990-c2e0-4405-907b-4734a5abcf45">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ec6fbaac-1dbb-4778-8005-d1aed53edee3">
+        <dmn:inputEntry id="_be17b971-d873-47df-b4e5-86501853bc8d">
+          <dmn:text>"26438795"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0ef7d536-3071-4894-a8b1-9bd262948989">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4c8c1637-d582-4906-8fee-0bb0b9afc1f5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3d581c73-3469-4e9e-977f-3f887d8ad4a8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8dd65bae-ac66-4430-a236-1a98519e6fff">
+        <dmn:inputEntry id="_d275f788-e6e1-4fb8-8d4d-af8410a19b56">
+          <dmn:text>"39208347"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_25fe601b-ffdd-4009-a735-327f4cca6f9d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e943f77a-eead-47df-b86a-708590a51a97">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_535c005d-c495-4cde-9c41-341f5fce6172">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_80b76c00-2b46-4187-8417-c6aa75f1a490">
+        <dmn:inputEntry id="_5e4f77da-9f20-438f-b6da-53aff8cdc8be">
+          <dmn:text>"14962309"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_90f91911-9aeb-4b70-9b3b-1a174709e720">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3554038f-7075-4c39-a5cb-cd78b6fe075b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8d795718-40ff-4aba-ad2d-120c91d1b0b8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b5a2e5f8-8c92-4cc9-b20b-ededd19beb6b">
+        <dmn:inputEntry id="_c971985b-8947-4454-91bd-64966ee2cdab">
+          <dmn:text>"48256051"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_20d2415a-81d3-4ce4-b0bc-93a4c946e842">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a66c28c6-2c64-47d3-8278-43ec02f758ec">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_60edbbc2-f31c-4c78-a106-9ecb4947c405">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ef78a0f1-8f58-45b8-ba1c-f74e40358477">
+        <dmn:inputEntry id="_257312be-17ce-4ea4-862f-e0ceb92ab891">
+          <dmn:text>"92893607"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0a4d90c9-4a8e-4e9b-998e-a7617cc039d5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9d7fa6f7-bb2a-4afa-a21a-e41ceabe36ff">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a4c2892c-7515-4c1c-b046-878c011805ce">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0482f577-2d7b-433c-bd56-4e7efab777dd">
+        <dmn:inputEntry id="_80e453bf-cc98-4aa1-a9f3-32178c2948a9">
+          <dmn:text>"36489595"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ee818331-81f5-4764-a713-c44c429349b5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_91d51fbb-7388-4168-8fac-ba1cfd2f34cc">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_18512853-f902-43f8-8901-211b5a62eaff">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2b873394-b8bd-4298-af40-c52ec9102cc5">
+        <dmn:inputEntry id="_ef92811a-05c5-4ba9-a79a-961534e4592e">
+          <dmn:text>"17555397"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_422ece29-693f-436e-b301-d3e9c20ed5a1">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a2c20f0d-70f5-4ae9-b836-94733cca747a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_de927483-411e-4b21-a288-d8927cbb3393">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_95081eaa-ac41-46e8-8ac2-0492e9e72c7c">
+        <dmn:inputEntry id="_d61601e2-1783-44a8-a03d-105340b40ae4">
+          <dmn:text>"20939087"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_46450a11-fdf1-4a7f-845e-987e5f3414fc">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_79fa9155-44f4-427d-82b0-13783d6535f7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_61ea6b8c-8a5b-4c66-aa91-3f1731dfc694">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d48b3049-54ea-4565-9f0b-90ad1e3c8241">
+        <dmn:inputEntry id="_0a84f2e9-29fb-4138-8d39-d24181553808">
+          <dmn:text>"69166417"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_03e29e0d-4b03-4dcf-b25b-0e211711fcb4">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_65de1e01-6b6e-4d6f-8c07-6e8644ed4145">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6995f2dc-e345-4486-9717-1cd2ad6c7fe0">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_751c54a6-df57-4b21-9655-8444fa62be05">
+        <dmn:inputEntry id="_f2b31c0a-7556-4da5-9629-9cddcc084ee0">
+          <dmn:text>"72897938"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e7d8c8e0-ace6-44e4-8be2-674213811a9e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9dc2fa36-dc21-45d0-8b9b-6637355fe75a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d38496ce-f08f-44f6-ae06-4446cfc6e516">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1e649e30-02fb-4d5a-8116-106d311e2577">
+        <dmn:inputEntry id="_031c13ce-f0fb-4ade-bd56-4a5a07f0273c">
+          <dmn:text>"5241703"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ed70f56e-c23a-43dd-8d71-fd81844a91e2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_41c390a4-2247-4955-99fd-5f0cfd553269">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6110d2a4-e4e3-4c03-a6a0-bead499de617">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_25063798-4fa7-4ec7-bf87-703734453d2a">
+        <dmn:inputEntry id="_35296f47-6a6a-40ef-8b15-939a6a774c83">
+          <dmn:text>"36034942"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_95f02dda-a220-4af1-ad33-1a9ede8caef0">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_698acce2-522e-4e77-904f-7f29f062d52a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_69c66350-4999-47cb-b76d-3f1d096f91b4">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d17e182c-c293-4e45-9370-48729dcc0f86">
+        <dmn:inputEntry id="_e297e5ac-d4df-4c93-8008-3914ee403664">
+          <dmn:text>"7516355"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_61cb8738-44b4-4fb8-b643-d25f2dd17baf">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9a9a8754-8ea1-4987-9ef6-4727542a6a86">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_681fa028-2be9-456f-a572-750f6113faf1">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_da84dbcd-4e06-4bb0-957d-8baa1e558d69">
+        <dmn:inputEntry id="_0c15e694-f9f0-4434-8976-cc5c9e575099">
+          <dmn:text>"60435360"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_80657972-d6ef-4586-a38b-f1082eff3a6b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_34354445-51e8-48ff-bb3d-f150ab86e465">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3dcb265f-451e-4c77-96f8-d750496d2aab">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b85b6145-39ac-4f9d-ba5b-de7be70697d6">
+        <dmn:inputEntry id="_6679490f-9e8b-40af-b720-d150aa30890c">
+          <dmn:text>"65588078"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_35d07d06-0f69-45b1-992c-f880ff980336">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c5cdab30-31b7-4ecf-b752-8c4a5e7da390">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0feb5677-4575-4e3a-8ec7-0970d62a9adf">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4923ddb7-0fe8-47cb-8415-a1fda3625702">
+        <dmn:inputEntry id="_6ccb1dba-933a-4853-b7cc-01c935078cb9">
+          <dmn:text>"36350593"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a7eabe1e-55f2-49fb-97f7-689d53b454c9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e07c460c-d042-49f0-8e03-12296f4d6600">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0ece05b8-32d5-4db3-8fba-979eea1a449e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d175196c-4b15-4f26-b3cf-3a24f1b41733">
+        <dmn:inputEntry id="_61b1f5dd-a441-4acc-8428-93457d11f133">
+          <dmn:text>"36951118"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_72fcf431-79b7-490d-83ff-8f1a79936276">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e6108ef8-8691-4473-815e-66a5b8a02160">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1008cc09-2bf4-4490-ad84-fce77af32666">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_afde5a9b-ec19-4d36-a09a-1d4495c416cd">
+        <dmn:inputEntry id="_5d78d2d5-2522-4c20-b095-e266fe0221b7">
+          <dmn:text>"14555956"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_052bf923-21c0-4db9-a6f2-2d2c053da078">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_838aecc4-0abc-4dc8-812d-5a7322721fa4">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_69cf9be9-ea5c-4d91-b94c-a70545bce7d0">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d517ebe4-6444-4c23-9f28-b47a73b6527a">
+        <dmn:inputEntry id="_5b2c36ff-0a2a-49fd-867f-00fb8c4b3ea8">
+          <dmn:text>"74218930"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6eb58c08-1fb9-4110-9987-9f21e59f2e9f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fdaab49c-76d2-4da1-8b6f-28a784870e32">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5bac0c4b-4ff8-4f5d-8a00-910ddfda0b2b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_aeeca77e-2e15-4006-8216-965d6601884e">
+        <dmn:inputEntry id="_033d40bd-3e38-4838-a963-bed2f35915fd">
+          <dmn:text>"51046456"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7c8ce580-bd5c-462b-b5d0-e467c9a2db9e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_114d406c-0e7e-4193-ba6c-b6dca0ff13c8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_289ab254-826c-447b-aa05-af81c6ea0435">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8b8e666d-8b5b-408d-b675-07cc9bb669e8">
+        <dmn:inputEntry id="_4eeb52ba-6255-4e2d-9cb9-e4198b72fdad">
+          <dmn:text>"69267113"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8c2e5182-8db2-44e7-9d81-9cf93f92fc77">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fc107f0c-f797-440f-9ad9-d7fcf159cffa">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_275b0d6b-34c6-45ca-b717-7cf094601d7f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ce8ef6e3-5fba-4750-bd37-548c5d73de0c">
+        <dmn:inputEntry id="_b283d6a5-818f-48e7-8c8b-ed8b8d270160">
+          <dmn:text>"48979424"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_baaa9c2e-4ea1-428e-b403-5e4d661d731d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d1ba2b1c-db8b-40d7-827b-7eb0eff800ef">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_84c1fb81-8fc8-4a10-bed9-6492a56844a1">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f52c8eb8-6f31-4991-b3d5-aab537d9259b">
+        <dmn:inputEntry id="_510e35a6-861f-4b17-b99a-2e5e8672fc01">
+          <dmn:text>"88517162"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_93612230-11e7-4991-9c5a-5d84b1dfe910">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2fc3582e-b5b9-49b7-8dec-3e6b13d7eeb3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_711fb780-ae30-4834-a1be-b910a63e2dff">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b22f926e-54ec-4cb2-a963-392d617bb439">
+        <dmn:inputEntry id="_b4da4510-d93e-4373-b63d-36dd82b13b08">
+          <dmn:text>"23598958"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2c0318a2-8e6e-4382-9112-72e9a66b44fb">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_30f8b922-8f44-466a-944b-e60979f24c5d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0f95ecc5-7a57-4101-a02e-2b0d50ebebdc">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_582c6ed2-6bc5-4713-bd27-d1f6eb25da37">
+        <dmn:inputEntry id="_586003f1-8e86-4070-aa76-1a2c1b59ab70">
+          <dmn:text>"11403237"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_396de5d1-512a-4ab5-9558-6e245aead009">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_08646fea-1d40-430a-be05-a0f8c33b9ac9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3cfd0cb2-d11d-411d-8550-a34db28d6228">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_dd4dc823-2858-4e6e-b94c-8cbbc6cbcbeb">
+        <dmn:inputEntry id="_753b3613-e32d-4150-b511-10daf4226463">
+          <dmn:text>"28777543"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9a5314b0-22a4-4019-9a61-8c0096c1efe5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_75359443-66ec-49dd-8165-1797ca13295e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1da3d0fd-f697-4f5f-86e7-41772f3f4eae">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9ef6e90b-4ded-4eda-a9b9-3c1d7fc41d5d">
+        <dmn:inputEntry id="_bc4f3ade-82f3-40c8-9776-63170e244221">
+          <dmn:text>"33446076"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e750d2c7-9789-49b9-ae91-2fe7e8bdb978">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c84ab0ec-f691-4a4c-9bdc-4d5ede4a6337">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_29e412cf-fcf7-4a8e-981e-85a3dfe8946b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ea52219a-147f-425b-b11c-634f43868633">
+        <dmn:inputEntry id="_721b2ee5-1480-4d56-aabb-c6827e7d4d65">
+          <dmn:text>"84259274"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_50a874e4-25a5-4191-8d42-cc5885dcea2f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ed2ddfb6-e850-4968-8fd9-464ed21a715b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3c7500ae-6a1c-4942-b24e-2517a3f859ba">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2ab01837-da99-4f2a-ac28-3f0a577b42d2">
+        <dmn:inputEntry id="_288f133f-cd7c-4a30-bb70-0b60c0645f75">
+          <dmn:text>"81963508"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0d5016d4-77db-4a35-acfc-24546e22d6f1">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_931152f8-e9c7-4db7-8ff3-ade30f1551f6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_32793661-414a-44e3-b7cb-1cfbab2ca557">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7ce5c3f7-75f6-4d89-8271-ca276a8e6bcf">
+        <dmn:inputEntry id="_3cc19c14-4784-4aa7-87e8-0602e2c2f600">
+          <dmn:text>"10686335"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4fe8f2f0-6dd4-4397-a5a0-6cf786538f20">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0c48738f-a7c2-44dc-a38b-c34625d42423">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5d108045-5f6d-4259-950b-caa66d40df38">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9541ff53-1b37-4f40-b52e-2c2b5f068d57">
+        <dmn:inputEntry id="_e350732a-4081-4ea1-a779-9405d6260ed2">
+          <dmn:text>"42390300"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_63e9bb1c-5da4-4b90-a264-81d5fc5f9790">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_de2ed546-dd74-4322-abd7-45b4bc89776a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9d16c5e4-1760-40c7-a791-b6038268725b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_6227b8b9-b51d-4396-90fd-962d5a908e72">
+        <dmn:inputEntry id="_9d3ea93f-8c43-4329-b07e-c415603a3a84">
+          <dmn:text>"81040652"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2bea3af6-e05d-4fdf-aef9-1c4927c3f889">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_afe2daf3-493b-48e5-8b8b-f00c3dad7e2a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_03d1e468-652f-4a95-9ff0-47a072c92114">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_6541659c-c068-4e97-944e-992428b80687">
+        <dmn:inputEntry id="_df269c0c-bae4-4cf8-a958-38a617af4efd">
+          <dmn:text>"22584004"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3203d009-81cc-4b25-8256-0f704ae6c765">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_182616f3-01bf-4cf7-9f8a-e87f5cf605d3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_44562ee4-1a09-4d72-8809-5926d3596145">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_807d32d6-c71b-40a1-96bc-4e272748dd73">
+        <dmn:inputEntry id="_202e27c2-4d7e-4dab-8b0c-5fc9bec6b8bb">
+          <dmn:text>"50785002"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2574d6fd-2106-4add-9018-4764cd07e495">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7d9cce56-b6df-4639-b447-901b0ad35d62">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_acab0a03-848b-4282-af38-8917333339f2">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_88f32e87-38e6-494c-bfd8-31ff33941cd6">
+        <dmn:inputEntry id="_16a1a852-69ee-45b9-b33a-a3801f7e121c">
+          <dmn:text>"82616298"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ffd2dea2-64b7-4cf0-a528-3cfb7cf3bab5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4b414ea1-c6fc-4728-bed1-53e3d6c33b1a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_cdae994a-8f10-451c-b146-2c27fa364d42">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_bf189348-0809-4c39-84c5-587614e34d04">
+        <dmn:inputEntry id="_c43aa5f4-2a17-4de2-9908-e33e7a974ed4">
+          <dmn:text>"82668737"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ec54b495-57cd-47fa-afe1-a3e7fafc0621">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_be369fa9-10fa-4e86-acfc-db99873d5de2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_02d9443f-3ceb-40cd-b2bf-d54e68a08198">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_97bf0ea2-76a9-4ff5-acd0-9c739a3db88e">
+        <dmn:inputEntry id="_ab85588f-e0dc-4dc1-bc86-b87c89f36c24">
+          <dmn:text>"75897647"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2c9f4585-24b0-4fc0-bf12-3140c1c6a8c4">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2bff13cb-dc99-4b1e-86d7-44ae840e811b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_369db7cd-0474-494e-ac8a-7443fb321cba">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ab849f40-6d26-47b4-8ad8-d9bfe321bb56">
+        <dmn:inputEntry id="_4f78cbe5-21e7-4871-9a1a-324691d46885">
+          <dmn:text>"66197932"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_802e98de-6ab4-46cc-b32d-71939f8b8c0c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f39ffad9-a0ee-4145-bb00-a2a08bf4eadf">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a5c70797-b03e-4516-b9f1-a88543c2eccd">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5440959d-2a5a-427a-9401-a16d1cd9538a">
+        <dmn:inputEntry id="_8d24e9b9-4160-43b2-8ec3-0b7c09949db4">
+          <dmn:text>"52371585"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6ae33a79-4653-499d-94e3-5c62ae0f4719">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2ea6b53f-67d6-416b-9b21-8e3ddbb42e6c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f50ff428-5d38-43c7-916a-7babc04905e3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_fcba2e25-ee8d-4be2-a171-27ab5393c958">
+        <dmn:inputEntry id="_57b86c10-cfb6-4568-86ef-0f8a0403b2d0">
+          <dmn:text>"91840192"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_95d4d154-442a-479a-a0c7-bd35b29f0549">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4130a7c4-5046-48bf-b7db-80d0355d3ec7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c341fea1-65e7-4b3f-b404-0be9b364e9e9">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_caddf1c0-b3fa-4e30-893c-d736174bfc8d">
+        <dmn:inputEntry id="_c33c87f7-233d-4279-b4de-2a357159e967">
+          <dmn:text>"15151727"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5b1d8ca5-854a-48ee-826a-14b567a6dd55">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a0535cc2-a06f-45cc-ae87-71b1c697c70f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a8452166-fb3e-4f14-8019-be99ad8aed8a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5964aa7b-d7d3-4718-9d08-115b15e42a6a">
+        <dmn:inputEntry id="_7a8182ed-c19c-4319-806f-fea3311440ab">
+          <dmn:text>"85971271"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d872a50c-6c36-4718-8fd0-ddd54baaee5d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bac4a3e5-6525-47b9-9710-3f858b9dc14c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_573e1735-50fa-4598-9356-2a114ddf115e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_870f0066-b65c-42e0-b9c3-dc46e5ca5f79">
+        <dmn:inputEntry id="_53a6d577-0334-4499-ae46-8cc19ebb1354">
+          <dmn:text>"29242259"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a8145e9b-d1f5-4798-8d58-52bb1d174b18">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_18e178a7-d64d-4cd1-bcbe-43cf6d26a05a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_323d90b7-e8ed-4078-8d17-b63a3bcaec5d">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5cfae86a-2b15-4571-8431-f1109dbea663">
+        <dmn:inputEntry id="_13d4c794-36f5-4b48-8f4b-fa6057e01665">
+          <dmn:text>"6590088"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c46cd777-8f66-48f1-9cad-f18e385c9a3b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_80a63fbc-e0f2-4878-9d68-268da88604d5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6f82064c-25f2-42dd-b53f-e93738226483">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_83dc9713-2f65-4a6f-84e0-12b66121050e">
+        <dmn:inputEntry id="_22df75d3-a70d-467a-a065-092e63a003e4">
+          <dmn:text>"11722004"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9a3d2971-63f2-4175-8f5b-bc933d57652e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_415fd8e5-c434-489f-ab3b-89acc638d8a5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_e6f42060-fbae-4aaf-ad19-300656b7719b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_65d8b66b-ad64-4828-b21c-4d3f6010dfe6">
+        <dmn:inputEntry id="_6c147e05-ab4e-403c-8171-7199eaff4ef7">
+          <dmn:text>"1.3.1.1:String"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b73d6261-5a13-4141-85f1-6c0acb725410">
+          <dmn:text>" 1.3.1.2:String"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_294aaf0b-6e67-4385-b5ea-de212b6bdc82">
+          <dmn:text>" 1.3.1.3:String"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6a69f797-f863-4c07-9778-766451fd4b28">
+          <dmn:text>" 1.3.1:String"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5af7e234-527b-4b64-851c-3205bd527511">
+        <dmn:inputEntry id="_4a0a6d0b-4eaf-47cc-8ed1-fb93807ffee2">
+          <dmn:text>"6216450"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_15a7946a-cc65-487f-b138-23c03fe81d9c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_dac23f0a-29ef-48ff-aac6-ff505d26395c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_dea5eddb-0294-4ea7-89fa-e4040c22348c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3dabba6d-3029-403b-8083-25cf712165d3">
+        <dmn:inputEntry id="_7f0fb735-2424-4c23-838b-410d6c2632f8">
+          <dmn:text>"59636471"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b88e90dc-86e0-458d-b6c4-607afd037341">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_25afbfc6-5356-4828-bc4f-dcc93f1ffbc6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_53c6a3e4-694c-4686-bd03-79e6e7e3a832">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f2eb4abc-402d-4c39-8d5b-c4f6c3346c7a">
+        <dmn:inputEntry id="_26b7af70-e116-4565-83d9-458e2a6bfd89">
+          <dmn:text>"46882411"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_460b4f61-075a-420c-9497-2eb812379a28">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_836d6244-8825-4d41-b37f-cbd6f34b73e2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2bd0affa-4a84-449a-8022-5ae48a87a2d5">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d566742e-dac0-44d1-959f-16a6d5c1d8a8">
+        <dmn:inputEntry id="_54c1b946-7f73-47a1-83b3-9fc15bab3cf2">
+          <dmn:text>"14126052"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e5dd27b2-fa50-469e-913a-1b01b0178d6c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fdb0525b-918e-4d16-8b2e-c30c62dbef2b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b6d9e23a-4ea3-43fe-a05f-e841532f8531">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5a7ab143-7062-42ba-bdf9-906734746faa">
+        <dmn:inputEntry id="_6f6745a3-b95c-49c7-a346-bdbc10e2d739">
+          <dmn:text>"3063825"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_30be7423-9ae0-47c6-9bcf-9ca4fbc26e06">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_aaae48d5-26f7-4576-ba24-ade1526f6f85">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_50adbc6d-b648-44c3-958a-858bbced7a09">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4db18d1f-c7b3-4392-99f4-cb439a7c77c6">
+        <dmn:inputEntry id="_0aae64db-70ac-4683-99c9-bc61705fb207">
+          <dmn:text>"48277472"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d8645d7a-b712-42b5-ab6c-081d92e8e0aa">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bb027222-ac00-484f-862b-d1270072bbb9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_92faa19f-135b-4a82-9007-a302f20018c8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_bb812499-83c4-4d5e-91c7-45fa381f17b3">
+        <dmn:inputEntry id="_52cf92c2-a48c-4c4f-b956-c25cf5d9b727">
+          <dmn:text>"54180823"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8cae285a-70ab-456c-8c48-7a1476b02784">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_36d9eae9-e351-4ff7-867d-e0db1ff174dc">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8593f403-054d-41b3-a110-22568c5e2e8a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4f29e7e4-c2b5-4486-8adf-55eea00b1df2">
+        <dmn:inputEntry id="_0e58ec8f-af9b-4a80-ac4a-08bd3510f7c0">
+          <dmn:text>"27478575"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6c0aa01e-71d4-4d29-a3a6-848684b1deaf">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_17a2d538-c816-4b48-b424-5d0de79fdee2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_89a60241-0bf2-48ff-a1df-04b1ac679077">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b540b9fe-1f8d-42cc-a3f7-028e11f56b16">
+        <dmn:inputEntry id="_d5a1365b-b13a-4906-ad4f-335fc3ea57b9">
+          <dmn:text>"77842269"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e660a595-7d73-4fc7-82e8-9c096c42f005">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_53cc4b2f-2b6a-40e1-9469-a990bd819e9a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f23ac4a3-caec-4029-ae8b-22866ee85358">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3ec27f2a-457c-41e7-8907-2368171a88a3">
+        <dmn:inputEntry id="_f136a89d-718a-4661-9824-4cbc74453f78">
+          <dmn:text>"54230958"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3ef8bddf-63f7-45f7-8bd2-5b75d4ae2048">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_12a4bd34-3666-490f-b48d-95c2d0730941">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1b66fb6b-1a4e-4eee-bfd6-942fd323b601">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0f32dfb5-a9d0-4608-a2fa-357a74be984a">
+        <dmn:inputEntry id="_980904d2-0091-4819-aa36-7714ce90db1c">
+          <dmn:text>"24294924"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_75af40c0-05c1-4427-8545-a922fb35484b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_29dfb405-a0ea-47d8-b07c-a4e497b5a944">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0024ac05-6939-42cc-9383-06c2eb3f5b76">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_050e2577-ece9-4ae3-8784-fc7aa7604a74">
+        <dmn:inputEntry id="_2af5bce4-b6e4-43c9-b3f7-d08e4d83038b">
+          <dmn:text>"74693807"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0962e77e-8063-4a14-953b-33d211039fc2">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2907de66-f381-43dc-883d-d08976c73e6b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b4aaefa1-6c33-4fbb-8ed6-77e5bf05e9ea">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_70119476-5498-4549-9661-99631490b353">
+        <dmn:inputEntry id="_e0788191-d85c-41b3-8197-370e1f0fb152">
+          <dmn:text>"16603052"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_45fc6fb0-ba6b-4636-8320-71b92e472b61">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2ac73bfa-1a9f-470a-8341-276156a9aa86">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d6939fe0-4f2d-4bc3-b833-9e02c1800f17">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3931fc20-a864-4923-8d98-af5d5497c859">
+        <dmn:inputEntry id="_d69e5bc9-99bf-4026-bbac-ded842e01de0">
+          <dmn:text>"26515051"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ada1341c-e1e9-4595-9167-783973a41f55">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_cf8d25b0-3136-4fe5-bff5-9ec7205eaec5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2ec39ff7-6f8b-4ac2-9277-cf172c6dd8a1">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5a54024e-19a1-44d1-8984-21f88aa07cdc">
+        <dmn:inputEntry id="_c5b44cac-8ac3-4e59-88d1-ac4f8c3d0f62">
+          <dmn:text>"16496731"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9012094c-9124-4f2c-8497-7da64d88fe8a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_08ab7b9b-edd5-4ebf-aa44-288d9f4f5968">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6e043910-4ab8-48d0-915f-04bcfdefe689">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f9313685-2d4e-4e99-b544-916a11247dab">
+        <dmn:inputEntry id="_c3055832-5796-471c-ae4f-086555f97f46">
+          <dmn:text>"76333398"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7e069263-a3ad-4b2c-971d-95f2575771e5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7ed34ce4-10aa-4dcc-b29f-3ba1d8796949">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f0cd6613-6592-41e8-8893-61eb3af7f74e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_34bc3088-1dbe-4d6f-8a43-b24daca5ac22">
+        <dmn:inputEntry id="_3b47b8e8-c125-4b68-b9f0-8599a8c580c1">
+          <dmn:text>"39577607"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_cd0c3bec-22d0-4f9a-892e-0a2d16a097cf">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_308ac1c9-a213-4d76-bda3-2dabe793a348">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_80bf4b07-bea1-43eb-ac29-5f76e2bfa4db">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2084e48b-6e51-4c59-afe4-335d3fb1d887">
+        <dmn:inputEntry id="_b6a85786-9fee-4d07-8057-36856295c3c3">
+          <dmn:text>"41951154"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f676a8d2-d7ff-417e-86a8-5b529c136e77">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_83d1e10a-a02f-4828-b986-49e8aa7c547e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3c534be1-e24f-485a-81cb-a2e5cd91680f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ac139d2f-2ce7-444c-bdb8-ac89fc51acfb">
+        <dmn:inputEntry id="_898b47ff-401e-46b3-b543-84a93ad331f8">
+          <dmn:text>"4073104"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f91a1cd2-156c-4c73-a97c-62ba21c76021">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1582fa6a-bdb4-4bb3-bf69-28c8049564b8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_e8e11896-5376-4746-809b-dcf0f91fd863">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f3b1184d-e773-48ea-aa24-b2896c097b17">
+        <dmn:inputEntry id="_6a0ecca4-c4ec-4667-be4f-80179a4365d6">
+          <dmn:text>"82277871"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_da197f87-20ea-407f-bfdf-11c3762c99ce">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_598e18c0-25cf-4234-a595-c1b95334f0b3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d8902a16-f3a0-45e8-b235-5b20e21dcdfa">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_81d6eeaa-a8d6-4924-872d-6cdc187dbc0f">
+        <dmn:inputEntry id="_0c93aed9-92a5-4288-a9d9-b3bba67d44b9">
+          <dmn:text>"98168146"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6778e64a-8606-451c-88b2-b0875b72b1de">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_73e00fbf-b7cb-4c76-94c9-f9d28d39e662">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6ca18473-ffa1-45b2-8744-f3061bb6adb8">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a5c23305-7e5b-439d-97ca-0329c78de28f">
+        <dmn:inputEntry id="_b43fb9e5-ce98-4e68-9ec0-5eba8e11e3f8">
+          <dmn:text>"80716453"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1d715143-898f-4971-8161-eca97e7991b9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c7b7291c-7e1d-43d1-ade3-4fa7e379a036">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_89d77e5e-ab7d-473d-8a2f-294797cc50db">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2ba36cdd-3bfb-4868-8f79-3a1160497feb">
+        <dmn:inputEntry id="_7a33b2db-e8e7-4f7b-b290-a49b57886c3c">
+          <dmn:text>"45150162"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_98daa35f-6113-4043-b152-1213b57d4bd0">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_34f96c42-2914-427f-b291-a22a64c28558">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9f44b167-95d2-48e9-93f0-a34b254021ba">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8d30a294-179c-4ea4-abb2-b906638096fa">
+        <dmn:inputEntry id="_cebcf7ca-ba83-456b-acb8-910b2f4a6ca9">
+          <dmn:text>"19752081"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f5bb2ba5-69f6-48f0-87b4-4da273b120a7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e46e50c0-60b8-4eeb-8076-232c5154420c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4564707f-73dc-4fe3-b4ac-bbc9d500ea96">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_de604b3d-cf94-4707-8f16-fa434f17ecca">
+        <dmn:inputEntry id="_a958c47f-dd64-46bb-b3f3-162882425b7f">
+          <dmn:text>"9646437"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b6954ceb-6dd5-423d-afaf-cf796276642f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a46c9095-56e0-4b87-8c6b-10f0a8fb6e6a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b6da2102-48cf-4268-86c1-3e32fc414555">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4a1fd51d-d066-4287-9a43-4b649f2c0c6d">
+        <dmn:inputEntry id="_889883c5-8962-42e7-8168-fb471e44dda3">
+          <dmn:text>"12041505"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_75937773-940f-459c-a2b7-85111dc48801">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_904b6f13-6003-40dc-b0d3-1978cebd98f5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_e347c25a-27ec-4126-85e3-175afc9a4c5d">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2fe1506e-1904-4365-8411-336480beeb4c">
+        <dmn:inputEntry id="_ec6295fd-199e-4017-9e3c-eef3bc9843d8">
+          <dmn:text>"53660738"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0c14fd6b-21c0-4970-9b04-2b100e5e1557">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c950caac-7c01-4f98-b969-52748a2611e5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_465319dd-a3fb-4e16-ba29-db1eaf7f24ef">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_25120531-9e4a-4288-bee5-533791a7f35d">
+        <dmn:inputEntry id="_04e657d0-b10c-4261-9e70-cd0f670b647c">
+          <dmn:text>"1835693"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8bcb0a0c-03a4-40a3-9e6d-028e3a70aa43">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_92957c8a-7081-4127-9e50-65d39ae520d9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d6b8dba1-6b65-4de8-a9f8-14a2150eabf6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c79fd2f7-d257-497a-a845-d840f52de42f">
+        <dmn:inputEntry id="_3b82d50e-f831-4acb-9ba1-3b5eb038d9da">
+          <dmn:text>"21401622"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a5f94487-4966-4b48-843a-fce9486f0dd6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_48387e1a-f1be-4919-9702-42a569fd1c81">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1888444f-6659-489b-96db-5d8c37a31135">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1b0a9010-e8ee-4e6e-ad3f-f7d752bca4fb">
+        <dmn:inputEntry id="_6b84c3c7-85fc-495e-9852-28ee45dc9cc2">
+          <dmn:text>"67118604"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_008524f0-a885-4e06-bd6a-1fcbb231b139">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0b025cf3-25df-4bca-aee8-2fce8f78e9c4">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7c1aea6d-1ed5-41cc-bd62-c176a72ca777">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7f1e749c-9fc0-44f8-ae64-8bf37a915fcd">
+        <dmn:inputEntry id="_d490199a-ffde-4219-b05b-dcd273bdf753">
+          <dmn:text>"88021071"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_517c6de8-2b56-40f6-bbad-0a8c81216f62">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_36bf4da9-90eb-46a4-96f7-7962ada8d0e9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6730295b-b5cb-4165-9bd1-17064df86269">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_636303c2-30fb-4cdb-ba5e-c42c8d52bc58">
+        <dmn:inputEntry id="_8a6265fc-f202-4402-a644-8d0f15aa2822">
+          <dmn:text>"80954780"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9b3120b9-095d-4d9c-ae42-8a63cfe0df7e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2a68933f-d3fa-4f69-8dfa-3fe1faec6096">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5fccdbac-58af-41de-9000-67c0a98c2101">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_b94e70ba-f975-4346-9373-22325bac2261">
+        <dmn:inputEntry id="_e878553f-3a66-470d-8b57-d60e160142d5">
+          <dmn:text>"74258535"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_316ed567-501b-420f-a272-90ff4d3489c7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_eed0fee8-5d74-4e1d-8d92-bb88dadad03b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_aad935da-927f-4519-ba6e-47c77d51be57">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9506c8f2-7deb-4976-ac09-01cb3244b887">
+        <dmn:inputEntry id="_4da6c120-bec1-4b95-91d0-7cf4055f3daf">
+          <dmn:text>"23437815"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bdb5257c-af4b-4b85-a841-57cd95d3fbef">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7521e1f8-bca4-4190-8851-5f63455b5a75">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_957ef98c-53f2-48c7-89e5-4729d690b875">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c4d336ba-7957-42df-a4b6-ab29ba2dc10f">
+        <dmn:inputEntry id="_69ac56aa-bb80-4a95-ba60-9fb3f9d0dc22">
+          <dmn:text>"63985176"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d1a2855c-d7b4-44ca-b72f-ff6b652e9bde">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_77a3208d-1db4-4098-8b71-0e8a8cf8d630">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_de50194b-fa3d-4bff-8a87-a9d179ef49b4">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7dced09b-faa9-44af-8c69-3b97485c2b8a">
+        <dmn:inputEntry id="_e0c88f9d-e064-425d-ab8b-984387916165">
+          <dmn:text>"49313479"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_10e95c32-f459-4fb0-8e89-860fd07e3a5b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d7cf527f-99cb-466e-9a91-2c96ff9b4e64">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_480fbcc8-6f07-4b3b-baab-0a14b9f31627">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f5e87c0d-4aee-4b90-98ce-55dfef45c857">
+        <dmn:inputEntry id="_a729d4e4-878d-4d55-b3b5-32c64d8b635e">
+          <dmn:text>"82109711"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_effb9f3b-6792-4026-a1f5-c8cbfa23bb1d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1bef5852-6457-4842-a5a7-2f32138ff6af">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_79c4b00a-e40a-4634-98b0-ae858c9fbb6a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2e101686-0d47-4977-aa11-b45b5cebdf3b">
+        <dmn:inputEntry id="_4e3a8eb2-bf73-4fa4-b0aa-6820cc194755">
+          <dmn:text>"66121032"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bdf1b75e-17eb-498a-ab5a-e782b859c38e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_12deec92-67bf-4dbb-a5f4-90e71839dc8f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7d05db24-a535-4e1a-aa91-35f16bbdce43">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9faefc4e-5158-48eb-b2b0-765d5f363e5a">
+        <dmn:inputEntry id="_b4fd0f5e-61b5-4d29-b5c4-da69ca64b28a">
+          <dmn:text>"98018677"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_dfc8f98c-f33e-4553-a1fa-d49687973245">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6cb7d767-de44-4621-86d9-7c2dacfda647">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_38d54e86-8f05-4a05-8b2b-aacffd35e474">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_962dc3da-4d63-4183-80ce-5f6fc8b817e5">
+        <dmn:inputEntry id="_762e4827-04bb-46ec-9649-eb2990588694">
+          <dmn:text>"67648051"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_10fb5115-ad4a-44e6-9924-1c07c0f70b1f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_75b0dd49-8903-4961-80e3-03505ee58266">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9c5fee6e-47c3-4d2b-90b3-c76c84d3136e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_dc996adf-b97e-429d-86f4-83aad7215b65">
+        <dmn:inputEntry id="_bfde0e36-c27c-41b5-8b92-1ae0d412246c">
+          <dmn:text>"24721309"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_38c91a5e-4a6e-4b81-9fc1-1b9931ba678b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_98a6e0a0-6596-4d8e-8ee5-55975c352de7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_884124ac-d656-46d5-8c6e-1bd797e2de28">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7c9554cb-0df4-4ba9-a47f-48f48938f49a">
+        <dmn:inputEntry id="_798a7850-559e-4364-a73a-eccdb7fff511">
+          <dmn:text>"33981034"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1760ac11-e86e-4a3c-bcde-5da5107a3010">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5c4c7713-faf5-44d8-933c-e4c66c5c25b9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a8ca1af1-9293-44c5-a41b-b8c063bb88ff">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c9508574-3f68-40eb-ae0c-3f7ed04dcaea">
+        <dmn:inputEntry id="_d9fc4029-e15f-4f30-9f9b-835cde6f4bb3">
+          <dmn:text>"81158332"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c5b29031-be9f-4025-8ac6-339bf2f59b0d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5a2bc01c-dc69-4071-8026-6443990df048">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c98b885d-7317-499e-bd28-6ccb55b7732e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_be850af2-3458-497f-b709-cfd8fc62c62f">
+        <dmn:inputEntry id="_04a838d8-863d-4f91-879f-c6f303395492">
+          <dmn:text>"25130715"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_45b1d088-e90e-4b86-ab20-3abb324a2cad">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_324fb577-7ca9-4588-a68a-0611e8150c05">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_cca7c445-1f6e-4a3e-aba4-f91ce8a2e23a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_75a6c8d0-fc00-4d19-b61c-5f9e0c61cf32">
+        <dmn:inputEntry id="_afab5963-04f3-42b6-b393-ec8614f35c56">
+          <dmn:text>"87464404"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7cb64f24-0823-4656-84e3-f1d50d7c7095">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a38f3cb9-80c1-4f83-a1bf-66792ec5243a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f5629dd2-4533-4c7f-8be4-035980d0d1ea">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_074881d9-6d66-41d3-81ef-4f22090c32b7">
+        <dmn:inputEntry id="_16cd47b8-bee7-42c4-ad5d-b74f7fae76ed">
+          <dmn:text>"51612454"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_abc4a8a7-de01-4eae-a84c-f2518d6fb428">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f1b3c221-77bf-44fe-b011-70389063aaf3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_89ff8245-6ddd-4bb1-9c81-2cbb65cfacf6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_fda59e84-a3ef-45a3-854c-083eb9db0768">
+        <dmn:inputEntry id="_eccaa5c1-e7e5-402d-a37a-8e5679d84805">
+          <dmn:text>"57413599"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d9e58bca-6580-4e2d-82f4-2044abab7566">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_461dc3ac-3701-401c-9f05-d6271e3b4fab">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_f780842c-a1d6-4833-93db-8f1a7bd5e3ef">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2ae39367-6db8-42dd-993f-410e57838ff8">
+        <dmn:inputEntry id="_f8ee5014-160d-4206-9c7c-8c87cb371ff9">
+          <dmn:text>"55405721"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0739a60e-5ddc-450f-abf7-653b343055d9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_85d95d7a-a482-401a-b3fa-de88efdefac5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_913a3732-6190-4309-88d5-d6dabba175dc">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ba25a6f2-359e-4adc-9373-9935e0b5fec4">
+        <dmn:inputEntry id="_70aad155-3c48-4331-a5be-3ec87e2d5418">
+          <dmn:text>"15025386"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6622ebad-6446-4681-962d-8d00c27b4f3b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3b91060c-437c-402e-81af-cf28eb883d52">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0e1d703c-667c-4378-bf43-894732382a18">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ba563312-7559-4b66-b7f9-6d66640b25a1">
+        <dmn:inputEntry id="_df343fae-a0fa-443c-98e7-d0e95ea0f999">
+          <dmn:text>"40771146"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7a2dcd15-7ae7-45ac-9827-f0fadeabf163">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2aabd965-a98e-4a5f-a8ac-7926078002d3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1c8afc73-0617-4f2d-9240-d261cebf8bef">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a193e5cf-6fd6-4fcf-b5da-a6ea35b701ea">
+        <dmn:inputEntry id="_325733a1-04b8-41b9-9d70-96da3741336b">
+          <dmn:text>"34413947"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_29d85295-54d6-47ab-9d73-f8a86f8dec68">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e4d46a3e-008a-4660-b862-dd20fbaab642">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a50e7e3b-8798-4665-9bce-0374852edf65">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4ff708ba-2d32-418f-9f93-571abe03658c">
+        <dmn:inputEntry id="_939891db-7bcb-4b47-8c31-2c1344c6c92f">
+          <dmn:text>"40469585"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_091f21bf-bac7-45e9-960d-5bddf354d2aa">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_58b911c4-e78f-45ae-bca7-129af60bc632">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7d6fde45-bcd8-4d77-bfa5-1fdcb93cd8d9">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ea618ae5-d975-4100-b95d-8483d7c71a09">
+        <dmn:inputEntry id="_1ae4c852-3937-4e08-8269-8120eac4f1f3">
+          <dmn:text>"18989142"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_754a8e3b-a3fa-4476-a471-cb06ab3a13ca">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9132af4c-4069-4599-a4ed-b5c35ceaa0e5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_27fcccfb-34b6-4c24-aacd-66d1c90fff2a">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f9a26902-89d6-4324-8303-cd9478eb9dee">
+        <dmn:inputEntry id="_e345a4d8-39f2-45a1-bc3f-29a5cd9ed87a">
+          <dmn:text>"91984860"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_70823f9c-0f47-41ca-9709-30dbdb3fc691">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8625f37c-97c0-482f-bcc1-b9c78178538e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_a568b112-a171-4652-add2-fa36163f9d34">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a09410c2-fd7e-44dc-93e2-4c56ef3ff198">
+        <dmn:inputEntry id="_557a79f2-d9ab-45d0-bf44-295533218e48">
+          <dmn:text>"12828873"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d7393658-89db-44c4-8892-79d54cb01fb1">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a50fdf66-8843-448f-9234-56ebcc68f4bd">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3deff6ba-e990-49cf-806d-102beadc4819">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a223ecbe-a39b-43d1-9a1d-5b16044ff68c">
+        <dmn:inputEntry id="_3dd755b7-cf20-4763-94ff-6a03453d873d">
+          <dmn:text>"44274327"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_92bc73b7-cf2c-4896-8454-6af30ceaa8b7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_af526eed-06c6-40f5-93a6-e8896afda979">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_24cc8e75-dba6-4a1c-84a2-1c1fcb8577db">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9c36de22-8d48-44c6-8c8f-ed3ecfe2dc88">
+        <dmn:inputEntry id="_544e7879-c064-4506-a7be-23785044ac14">
+          <dmn:text>"82705118"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_dfa58b53-ed33-4aaa-97e2-235cf4b8fc15">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4311b3ba-f8a7-406d-9c29-40610863419e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3630325a-07ea-4d9a-a129-2c2ce5f4a623">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d9a98d85-e435-4347-9075-dc403930df15">
+        <dmn:inputEntry id="_762739ed-54fb-416f-b10e-0fefb8f9b52f">
+          <dmn:text>"89031098"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_78042429-b457-4f73-8180-11d4744f6760">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ae26b3d3-a278-476c-8e54-4e3856b1e8d4">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8ca2ac1c-5ae4-4f60-b85e-01f4ef489183">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f14b4829-60e3-4245-bb3c-0b2182635d72">
+        <dmn:inputEntry id="_3e281134-a001-445f-a60f-88f1f94293c4">
+          <dmn:text>"44627322"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e543ea55-e8a4-4c36-b7f6-ed83e054f18f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4f93023e-ab90-4579-b9b2-1d78c68c5738">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_93feec5a-1886-47b4-ad5d-b12e55be20fd">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7e887fd4-8de7-4f39-8afc-18891d4ae5e4">
+        <dmn:inputEntry id="_f7f9e264-de00-44b0-9e06-1e307e4a06df">
+          <dmn:text>"5165888"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b50dde5c-b3b0-4c25-a918-beef50c9181b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b6ece514-fa67-46ac-b067-ce5d6290d354">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_30df47b9-6a91-4916-90d3-604896d666c5">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c2b9d20f-5f88-45de-9fab-bc28440635c5">
+        <dmn:inputEntry id="_03a2564f-c400-4e06-a7fb-6211feddb357">
+          <dmn:text>"46223740"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_64af4d65-5f10-48f0-947a-53d34da08628">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e591b09b-d3e2-464e-a74e-6143aae0e4cb">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_93984428-7b99-4184-b120-0cf564c07390">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1a2d6546-0e86-4e27-bcd2-4949fbbe0940">
+        <dmn:inputEntry id="_5f2aa0b8-5f64-42e9-aeca-9bfff39287d7">
+          <dmn:text>"93048846"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f031db1f-2fba-43c6-94a9-67c6c457cccd">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8cecf3f4-8c07-4df9-8ff7-c9837c852109">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b435e8c4-485f-41b1-a192-f5a93317a956">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_d88e760a-aee3-4881-945c-cd01f30a8a27">
+        <dmn:inputEntry id="_3200263b-e446-4181-afe7-8ae5cec3da37">
+          <dmn:text>"530916"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6ec09bf3-75b4-4376-81f3-bd253a4c910b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7bc69830-d7fa-496f-ba73-0c7dc93053c3">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_40a52bf6-5655-444f-98f2-2e107b8e7cac">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_51291c60-81b3-4ce6-b131-b62dc210a3e7">
+        <dmn:inputEntry id="_db2fb645-e99d-468e-9ac3-bcb813fef532">
+          <dmn:text>"7861392"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ef6f0f73-bc45-49d2-9f62-681a43b95f36">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_bc43d46c-84a8-4409-baef-810c4a3186e8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_124b184a-decf-4b35-8939-5bbe8267504d">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_454b8b74-772b-4839-b338-533550a365e7">
+        <dmn:inputEntry id="_d51fa712-0de8-4268-8672-cc2656f3cc00">
+          <dmn:text>"10352508"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c3219fd0-761a-47c6-a980-902efa3e2954">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_aadbf391-98c0-48b2-b646-ce12fd35bf31">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b170f4c7-f79a-414d-b227-7c3b996c0565">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_425bf0ce-c48e-4815-af6f-559201bff3f7">
+        <dmn:inputEntry id="_6845055c-a009-4d63-96c4-1e13524fdb05">
+          <dmn:text>"38180775"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ea218f84-710f-46a3-9b07-6cce4e16443a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_891c921a-a4b7-48e6-b94b-2e9f24d0119b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c05364ad-31f2-483b-8ec6-c27d28d30f16">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_637d1f2d-748a-4a8f-8f54-7ede28d003f4">
+        <dmn:inputEntry id="_019b2b57-29f8-401e-80b1-4cc12c5b0dde">
+          <dmn:text>"59781340"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fb11d406-f0b6-48fb-9abf-b30323cd7aec">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0a8bd45b-e386-47d5-a74f-3a101e995997">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_32ec447e-0d6d-4990-b271-dd1f92af51e7">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_161e71cc-16b1-4655-ab55-fc3dd299a776">
+        <dmn:inputEntry id="_70a37c4a-ff8b-4dea-9e1d-d369712d56ba">
+          <dmn:text>"33622623"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3ab2df9a-58ad-4e01-afe3-0c13125791c7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f838e6e3-6860-4c97-a48f-f5973aeb6b35">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_79d9540c-291d-4feb-95c7-f1f11f0470d6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2797579b-4c7e-4d6c-b5a9-8db702d97f7a">
+        <dmn:inputEntry id="_bcf2d0a9-b7c8-42a3-956a-fad0ddaebe20">
+          <dmn:text>"11970833"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1c371688-5240-4df7-b361-de7cf2ce7951">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5b8d5467-ccbb-4f01-a132-7c46993f3d98">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_62964cda-94e7-4946-b4f7-e5ebe3b73b74">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f4c714da-ea60-423d-83ce-6b14355b2c4e">
+        <dmn:inputEntry id="_e18cef38-a479-469a-b995-67be4b165ff8">
+          <dmn:text>"52595262"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_16929472-9258-42cf-a1be-da92d3078f2c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_345735ba-2e19-4d8f-bac2-a8c7effb6132">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_725fe19b-3622-443e-8fee-e72353b88f3b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_293008b7-ad4c-4d36-b4fa-e9c99cb04629">
+        <dmn:inputEntry id="_304bf450-7dd5-4ead-84fb-fd0e9561f231">
+          <dmn:text>"79617881"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_403420c4-dbc2-48ac-b110-f18baaf8fbee">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8ed3cd1b-83e3-4f81-8d77-6fe1a36c9d72">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8ca63fa0-e9ea-487b-8c10-103fe367cc6e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3a9f58be-ceb7-4b8b-a04f-d6ed55798b76">
+        <dmn:inputEntry id="_95484bd2-4cc2-4980-b120-98f9bbd711cb">
+          <dmn:text>"39260484"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b9cb9caf-779e-4c45-98fa-b5ea86816d71">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5e166a61-581c-45ab-b939-37a93eb4c53e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1a13d996-8c1e-4792-abd6-d56add5ad984">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_e3c543ae-7f4b-459e-84dc-9626bfb3f25c">
+        <dmn:inputEntry id="_30deb163-7f74-4581-8405-f8c41d6dabf2">
+          <dmn:text>"3917142"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_cdf96121-ac88-4dec-af3c-01d20c601039">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_81cde8d4-df52-406d-a411-d7d6ea760710">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b5ba8c8e-1d87-4682-8f4c-3a2d52bff9c0">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_44ee0988-7122-4028-afa9-7154ddf9e275">
+        <dmn:inputEntry id="_e551af5a-3aff-4446-9cc9-dd5ee364744d">
+          <dmn:text>"8418340"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f626a521-fd31-4b42-ac9d-4a9cf7928a52">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_71695667-b1c5-4f1e-a043-b3830b9eec1f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_91d4421b-1b1e-474c-9cd8-5f779978a728">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ab2e6e32-54d0-498e-99c2-5d481a6c607f">
+        <dmn:inputEntry id="_de221fc9-1625-4d4c-ab78-fce66038f600">
+          <dmn:text>"7181563"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ec792d0a-ea18-4dd8-ba14-05c9cab9c45d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_40886af9-5a24-41a2-8e4e-c12709185829">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_eaf41123-b95a-4ebe-ab1e-62d16f0e5a43">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7ec44ba1-efe6-463c-a8e6-77188d290cc8">
+        <dmn:inputEntry id="_7367fbf4-c9b3-4e6f-9ada-6a11e8718ee6">
+          <dmn:text>"44460309"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9c9f6507-d121-406e-89d3-09984a62fd7b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3751d7e0-f5d6-4f58-89cf-332aeedd9fa8">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_ec7c2b5f-0efa-4ba7-88b2-84aeeede3c01">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ef356921-e458-4de0-bb18-a595f13cd056">
+        <dmn:inputEntry id="_bf3cfd29-47bb-4104-9eed-56ac8eabf1ea">
+          <dmn:text>"88435330"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_58564882-0e83-4970-8633-fe0ba0a2b61a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_dc05fea0-86c5-497b-98e6-71b13d2f0a28">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_b21bf7cf-6c94-4a95-be58-900320d80156">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_44d46322-0376-45af-9815-493171fde792">
+        <dmn:inputEntry id="_f80fb445-504b-43fc-89cc-cab4c7e81556">
+          <dmn:text>"69043507"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5d86c9cd-8c69-49a0-8d88-9a34ff231860">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_c6227b9d-bcc7-4c27-b822-b8459bcb1fc7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_ff8a5e02-26ea-484a-95df-745b72ad860b">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9f712778-133a-4947-b1ef-bc0dd87e2b99">
+        <dmn:inputEntry id="_dcc30d64-acc4-46bb-80b1-8a091233ff65">
+          <dmn:text>"84236415"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9035049c-4e3c-4d7f-97e7-ccc609370650">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2854590d-5528-4c44-bee0-0f5385f9fa03">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_11dedd66-bd77-44c0-9dac-e229c74922a3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_94bb2f74-1ce7-4209-84fb-a3bf836f4a9a">
+        <dmn:inputEntry id="_d4e4dbeb-4599-4a6a-838f-e804eb8e5f0f">
+          <dmn:text>"58532035"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_409be0b4-3bfe-4fed-9241-0f166a1e4612">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f166e910-4a31-4546-a3b8-acc2a725f521">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_437d0ee9-b7ab-4047-98c3-6f3d29d6c5d3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_562170ac-ddbd-4b39-8c8e-642381b9ff1e">
+        <dmn:inputEntry id="_3d305166-1bed-41a7-93ad-eb35c36a719e">
+          <dmn:text>"93278787"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7cb65ed0-7f86-41c0-935b-3e9ac93c9a45">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d16d9f5f-78b5-47ee-8e41-0e358137f960">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1be98d08-d749-4d9b-a1f3-5e506470f71f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1e65a8ed-b7e8-4b62-a07d-00b0531448b6">
+        <dmn:inputEntry id="_327d2a60-5805-4028-aeee-f4de56e89e81">
+          <dmn:text>"14694903"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3a1de22d-e122-43f7-88ea-145158fcf83f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_62e82335-46e2-446d-a0b3-d611ecb5e693">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4e1ced98-667e-494b-a797-cf4b7a26c406">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a7660892-66d5-45f8-a8a5-6b8252440fa2">
+        <dmn:inputEntry id="_012e2775-b6ae-475f-bce6-c50ff799780c">
+          <dmn:text>"3295388"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8974ea1c-b088-4f2a-beb8-d47c40f480c7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3c68866f-cbd4-4bcb-a6b0-d1d29ccceac9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9354bdfe-d4d0-4aaa-b48f-785f99e4674f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9f29d124-f2cf-4ebe-9180-972c00759f8e">
+        <dmn:inputEntry id="_e36b5ea1-78f9-48a0-8f38-b22ef1dffa72">
+          <dmn:text>"94970723"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b0bca988-4a85-47f8-88d8-2e078400e666">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_91c4f9ca-83fe-4ddb-9632-0492a65dbdac">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_64a0a140-a0ff-4202-9457-9f917315cc96">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f8e9e130-e9f9-4c87-9200-a60a716c2bb8">
+        <dmn:inputEntry id="_05816be1-15d6-45a2-9b42-bf34298923dd">
+          <dmn:text>"97781898"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3c8a6f16-f281-477a-89f7-4cd5cb55e25f">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_dbd2c422-82f3-4a5b-8e0c-2c9d50d6ee51">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_39878384-c8c0-49f0-af14-931df766e0a5">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_f675f72b-d38a-44ef-8ede-c10bc5783e3d">
+        <dmn:inputEntry id="_d5c92a42-6287-410a-bd18-01af2e693c4c">
+          <dmn:text>"29902442"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_45648dd6-f09e-4fa4-ae50-7c3737539bab">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_efc8225d-af57-4a81-b189-0c5a855a28cb">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1adb1a74-e411-4169-a541-80ab9e368fd3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2ea1e427-2a66-4142-9943-4b7430e90231">
+        <dmn:inputEntry id="_2afed7c4-e51a-4aa9-ab97-1969aff038bb">
+          <dmn:text>"26262242"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_823e103d-06a2-469e-a7ab-793eb6748187">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_daaccaa2-6808-4b3b-8e15-569b5a216c02">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c174353c-0e6f-448e-881f-204d0ec97a1e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5d6e655d-f264-4bb3-a52e-a785aab6d2dd">
+        <dmn:inputEntry id="_93719d17-1c66-48a7-a722-7d02771eec75">
+          <dmn:text>"94921101"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fc125f8e-d33e-4cc8-becb-07d55575297b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_51f71e4c-cd64-4ec3-90e2-8d5ad161428a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_76ef18fe-04d4-4395-9eeb-418bf159e361">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_c0c4a3b4-384c-4ecf-b35d-7d7002991607">
+        <dmn:inputEntry id="_a0ffed1f-4710-4d38-bb0d-30890c889140">
+          <dmn:text>"53240995"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_ca118858-f847-49ef-93d1-0ce8da6e2566">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_45a6d1b7-f159-4262-92ec-49ac0605ae76">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_55279904-e28f-4b5e-9599-fd4ea790c07e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9699abaf-c7f5-40ed-8d9b-dbb91334a9fb">
+        <dmn:inputEntry id="_f92d2243-390d-4f16-98aa-9092893944c8">
+          <dmn:text>"633577"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6a0880d2-aae3-4d15-8df5-451456d03410">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_d7c9d2db-1778-4e5e-a5dc-15b5a8135c49">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_d77bfb82-a736-4fc8-902c-0690924c97d3">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ccec71c9-a927-4622-87e3-dc139aaec94c">
+        <dmn:inputEntry id="_1e6d3727-ebd2-4a2a-93de-9887855acd91">
+          <dmn:text>"39561201"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b5da6cb3-3f8c-4777-9608-1ba73fc6cefb">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0fe836cc-8744-4d2a-ab6a-bfa1e3db8694">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2ccae921-58f2-4d2c-ae31-b5bbea96c7c6">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_69aefa67-d5bf-4d70-8e18-7ea3196f0d6f">
+        <dmn:inputEntry id="_0f7b27cc-2337-4be8-b72d-af0d901f96ab">
+          <dmn:text>"62781381"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_134b1bac-690e-4886-8a0f-bc0f5780c5c5">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f2fc8824-9d0c-4895-9cb2-c5a655561164">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4dfd82ef-6de7-4be8-912b-7b55615a9997">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a78bdfa3-e398-4fa4-9d30-47c2a691b2d6">
+        <dmn:inputEntry id="_2e230a78-b2f7-4e12-8cab-97b1579f6c26">
+          <dmn:text>"58846265"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b75f0453-b658-4ebd-87a1-7ef3c3f885dd">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4dc895a4-17d3-4fa2-9413-4813e41b691c">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_ead46766-08ce-4ff3-b950-79097886b244">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_a0d98340-9f7a-4479-b184-213204bc340a">
+        <dmn:inputEntry id="_00024ff8-ddfc-4248-ad7d-022d2a0412a7">
+          <dmn:text>"42536786"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_73fbd4d5-bf49-48e1-a0be-be0eb40fd81d">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_e38f5aa2-f336-45ef-884b-4fd59d4c76d6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3ecc328f-9aa5-4b04-b654-f49f9da08291">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8caa4165-bcfd-4cc0-b973-e30824fd5035">
+        <dmn:inputEntry id="_9e6d7964-6b1b-49fa-96da-a994b43865b0">
+          <dmn:text>"3581062"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5000528b-08fd-4e3e-a598-f2dc761f75ff">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_fba617fb-49a9-4fef-af41-eaaf9a2032b9">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_eb82e4f3-a497-4f1e-afd8-a36510230a84">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_72cb8b76-c163-4953-8a0e-8715543845e5">
+        <dmn:inputEntry id="_0e4cebe7-c918-4401-89cf-9249c0a4596d">
+          <dmn:text>"89964890"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_f997491d-3b4b-4a18-a3d2-a6df33c71239">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_a6be5e8c-45b6-48f8-84e2-cb3b5e354cb6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6e8ba168-1b9e-42d2-bce0-e6e153339f93">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ad4d33bf-da6a-4b01-88f5-2f17a27f941e">
+        <dmn:inputEntry id="_7d6da863-462b-4f02-85df-929470f577ec">
+          <dmn:text>"96702847"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_28a02935-4e16-46ca-8614-6423c53effb6">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0769b37e-ca8d-4797-bbfe-4649ea0f9228">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1be3c6dd-5a0a-41fc-967f-0f649fee6b3f">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4c984869-971f-4b2b-abc9-967d9a1f6146">
+        <dmn:inputEntry id="_c1f8f5f5-6fd8-4997-abb1-a8cf51a29e3a">
+          <dmn:text>"26315311"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_91adec5d-e192-4aa4-974d-d31f7c87f9b7">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1f5ed3e7-02e5-4f4e-aa97-0ada74b9a06a">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_c8612d25-200a-4b1f-bab9-98040347d0de">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_108072f7-6211-4eb7-8147-1f9cff72ee8b">
+        <dmn:inputEntry id="_ecea1f54-b201-48e5-be6f-bccf1fc45558">
+          <dmn:text>"13840388"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_581744e7-e4db-42d9-8d74-f976f4501b88">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8061a08f-6eda-4635-9ae8-f60ffae1e94e">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_586676ec-c51a-4d22-9030-fab6e238676e">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_196427ba-b66b-49c9-aba2-f0cd52bccb74">
+        <dmn:inputEntry id="_2b2be03c-207a-4f4f-b440-2624858a8206">
+          <dmn:text>"88306789"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_77afd30a-4905-4d62-85c7-6a562d636b9b">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_b6ad2e74-b056-4879-80d7-6bc2d2333b75">
+          <dmn:text>"Green"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_ea73bf1c-956c-4ad3-859a-7714c6fb9633">
+          <dmn:text>"Purple"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+  <dmn:inputData id="_ED3D54E7-62B5-48A3-99C2-5889D8B64125" name="A">
+    <dmn:extensionElements/>
+    <dmn:variable id="_7BC4BE24-6B51-4954-9117-4E80D9A3710C" name="A"/>
+  </dmn:inputData>
+  <dmn:inputData id="_48C181B8-814E-48E5-A95C-AC200E0EB29B" name="B">
+    <dmn:extensionElements/>
+    <dmn:variable id="_2789E302-DCD2-4E98-8749-81705F7840E4" name="B"/>
+  </dmn:inputData>
+  <dmn:inputData id="_C40BEEF5-7F90-43BA-9088-B570864B07E6" name="C">
+    <dmn:extensionElements/>
+    <dmn:variable id="_DD335675-6BA4-4CA6-9D82-0FCD1B1C687B" name="C"/>
+  </dmn:inputData>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="_29F4A98A-07F6-46C3-BB7E-007BB02F7B94" name="DRG">
+      <di:extension>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_7CCC4E09-15AD-4108-A087-287BAACE06B3">
+            <kie:width>50</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
+      </di:extension>
+      <dmndi:DMNShape id="dmnshape-drg-_BBA8FB3E-8E56-41E2-A9D5-80FECE01097C" dmnElementRef="_BBA8FB3E-8E56-41E2-A9D5-80FECE01097C" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="565" y="184" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_ED3D54E7-62B5-48A3-99C2-5889D8B64125" dmnElementRef="_ED3D54E7-62B5-48A3-99C2-5889D8B64125" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="343" y="345" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_48C181B8-814E-48E5-A95C-AC200E0EB29B" dmnElementRef="_48C181B8-814E-48E5-A95C-AC200E0EB29B" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="558" y="345" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_C40BEEF5-7F90-43BA-9088-B570864B07E6" dmnElementRef="_C40BEEF5-7F90-43BA-9088-B570864B07E6" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="739" y="354" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-drg-_3E707067-4E25-4F98-BE65-E73FFA109C58" dmnElementRef="_3E707067-4E25-4F98-BE65-E73FFA109C58">
+        <di:waypoint x="789" y="379"/>
+        <di:waypoint x="615" y="234"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_F3277F97-8EBF-4B81-891B-60386A989306" dmnElementRef="_F3277F97-8EBF-4B81-891B-60386A989306">
+        <di:waypoint x="608" y="370"/>
+        <di:waypoint x="615" y="234"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_929C5481-4582-42B5-9877-70F2B4C10BB0" dmnElementRef="_929C5481-4582-42B5-9877-70F2B4C10BB0">
+        <di:waypoint x="393" y="370"/>
+        <di:waypoint x="615" y="234"/>
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</dmn:definitions>
