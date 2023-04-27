@@ -20,7 +20,7 @@ The type of condition and action can be specified by appending a colon and then 
 Multiple conditions but only a single action column is supported. <br>
 Excel must be saved as CSV into folder `\excel` <br>
 
-Example format here:  [WeatherAdvice.csv](https://github.com/ncrowther/ExcelToDMN/blob/main/excel/HierachicalRules.csv)
+Example format here:  [ExampleFormat.csv](https://github.com/ncrowther/ExcelToDMN/blob/main/excel/HierachicalRules.csv)
 
 
 ## Generate DMN
